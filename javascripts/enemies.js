@@ -13,7 +13,7 @@ var Orc = function() {
     // Composes the corresponding player class into the player object
     this.class = new window[randomClass]();
     return this.class;
-  }
+  };
 };
 
 Orc.prototype = new Monster();

@@ -10,7 +10,7 @@ var PlayerClass = function() {
 
   this.toString = function() {
     return this.name;
-  }
+  };
 };
 
 /*
