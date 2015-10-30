@@ -1,0 +1,26 @@
+{
+  "name": "lib",
+  "version": "0.0.0",
+  "homepage": "https://github.com/rousell/gauntlet-atari",
+  "authors": [
+    "Lauren Rouse <lauren.l.rouse@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "firebase": "~2.3.1",
+    "handlebars": "~3.0.3",
+    "jquery": "~2.1.4",
+    "lodash": "~3.10.1",
+    "q": "~1.0.0",
+    "require-handlebars-plugin": "~0.11.3",
+    "requirejs": "~2.1.20"
+  }
+}

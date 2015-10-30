@@ -118,7 +118,7 @@ Sorcerer.prototype = new Mage();
       - Assassin
  */
 
-var Stealh = function( {
+var Stealh = function() {
   this.name = "Shadow";
   this.healthBonus = this.healthBonus + 10;
   this.strengthBonus = this.strengthBonus + 5;
@@ -128,16 +128,16 @@ Shadow.prototype = new PlayerClass();
 
 
 
-var Thief = function( {
+var Thief = function() {
   this.name = "Thief";
   this.healthBonus = this.healthBonus - 10;
   this.strengthBonus = this.strengthBonus + 5;
   this.speedBonus = this.speedBonus + 20;  
-})
+};
 Thief.prototype = new Shadow();
 
  
-var Ninja = function( {
+var Ninja = function() {
   this.name = "Ninja";
   this.healthBonus = this.healthBonus + 0;
   this.strengthBonus = this.strengthBonus + 12;
@@ -146,11 +146,10 @@ var Ninja = function( {
 Ninja.prototype = new Shadow();
 
 
-var Assassin = function( {
+var Assassin = function() {
   this.name = "Assassin";
   this.healthBonus = this.healthBonus - 15;
   this.strengthBonus = this.strengthBonus + 5;
   this.speedBonus = this.speedBonus + 10;
 };
 Assassin.prototype = new Shadow();
-
