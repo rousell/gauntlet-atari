@@ -121,7 +121,7 @@ define(function(require) {
         - Assassin
    */
 
-  var Stealh = function() {
+  var Shadow = function() {
     this.name = "Shadow";
     this.healthBonus = this.healthBonus + 10;
     this.strengthBonus = this.strengthBonus + 5;
