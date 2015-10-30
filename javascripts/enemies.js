@@ -1,6 +1,9 @@
 define(function(require) {
   var $ = require('jquery');
 
+  var Monster = function() {
+  };
+
 
   var Orc = function() {
     this.health = this.health + 20;
