@@ -12,6 +12,7 @@ define(function(require) {
     this.weapon = null;
 
     this.playerName = name || "unknown adventurer";
+    // this.playerName = $("#player-name").val();
     this.health = Math.floor(Math.random() * 40 + 50);
     this.limbs = ["head", "neck", "arm", "leg", "torso"];
     this.skinColor = "gray";
