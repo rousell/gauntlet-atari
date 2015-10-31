@@ -19,13 +19,30 @@ requirejs(
 
     $("#mainDiv").html(templates.setup);
 
-    $(document).on("click", ".toClass", function(){
+    $(document).on("click", ".toClass", function(e){
+      e.preventDefault();
       $("#mainDiv").html(templates.class);
     });
 
+    $(document).on("click", ".backSetup", function(e){
+      e.preventDefault();
+      $("#mainDiv").html(templates.setup);
+    });
 
+    $(document).on("click", ".toWeapon", function(e){
+      e.preventDefault();
+      $("#mainDiv").html(templates.weapon);
+    });
 
+    $(document).on("click", ".backClass", function(e){
+      e.preventDefault();
+      $("#mainDiv").html(templates.class);
+    });
 
+    $(document).on("click", ".toBattle", function(e){
+      e.preventDefault();
+      $("#mainDiv").html(templates.battle);
+    });
 
 
   /*
