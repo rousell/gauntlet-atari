@@ -81,6 +81,7 @@ define(function(require) {
     constructor function.
    */
   var Monster = function() {
+    this.name = "";
     this.health = this.health - 30;
     this.intelligence = this.intelligence -20;
     this.strength = this.strength + 30;
