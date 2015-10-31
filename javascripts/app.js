@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  console.log("reset all");
+
   /*
     Test code to generate a human player and an orc player
    */
