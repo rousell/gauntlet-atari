@@ -17,7 +17,15 @@ requirejs(
   ["jquery", "hbs", "bootstrap", "q", "classes", "enemies", "player", "spells", "weapons", "templates"],
   function($, Handlebars, bootstrap, q, classes, enemies, player, spells, weapons, templates) {
 
-  $("#playerSetup").html(templates.setup);
+    $("#mainDiv").html(templates.setup);
+
+    $(document).on("click", ".toClass", function(){
+      $("#mainDiv").html(templates.class);
+    });
+
+
+
+
 
   /*
     Test code to generate a human player and an orc player
