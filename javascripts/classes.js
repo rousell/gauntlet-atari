@@ -127,7 +127,7 @@ define(function(require) {
     this.strengthBonus = this.strengthBonus + 5;
     this.speedBonus = this.speedBonus + 20;
   };
-  // Shadow.prototype = new PlayerClass();
+  Shadow.prototype = new PlayerClass();
 
 
 
